@@ -1,8 +1,8 @@
 # MLOps
 
-## Project already exists add poetry to it
-- Poetry is installed system wide already
+## Steps I followed to set up basic MLOps functionalities to any data science project
 
+- Assuming a repo already exists and petry has been installed system-wide
 `poetry init`
 - poetry.lock and pyproject.toml created
 
@@ -19,7 +19,7 @@
 
 `pre-commit install`
 
-`git add .`
+`git add .` \
 `git commit -m "Basic Steps"`
 - pre-commit hooks run at this point
 
