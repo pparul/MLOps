@@ -5,7 +5,6 @@
 [2] https://realpython.com/dependency-management-python-poetry/ \
 [3] https://pre-commit.com/ \
 
-
 ## Dependency Management With Python Poetry
 - Assuming a remote/local repo already exists and poetry has been installed system-wide
 - poetry.lock and pyproject.toml will be created
