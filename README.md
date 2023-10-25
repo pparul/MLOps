@@ -27,21 +27,18 @@
 
 ### Pre-commit Hooks
 - add a .pre-commit-config.yaml file with basic hooks
-`poetry add pre-commit`
+`poetry add pre-commit` \
+`pre-commit install` \
 
-
-`pre-commit install`
-
+**Hooks run everytime we commit**
 `git add .` \
 `git commit -m "Basic Steps"`
 - pre-commit hooks run at this point
 
-
-`poetry add great_expectations`
-
-`poetry add matplotlib`
-
-`poetry add scikit-learn`
+### Great Expectations
+`poetry add great_expectations`\
+`poetry add matplotlib`\
+`poetry add scikit-learn` \
 
 
 
