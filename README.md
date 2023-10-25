@@ -5,30 +5,31 @@
 [2] https://realpython.com/dependency-management-python-poetry/ \
 [3] https://pre-commit.com
 
-## Dependency Management With Python Poetry
+
+## Step by Step Guide
+
+### Dependency Management With Python Poetry
 - Assuming a remote/local repo already exists and poetry has been installed system-wide
 - poetry.lock and pyproject.toml will be created after initializing poetry in the project\
     `poetry init`
 
-
 ### Add all libraries to your project
-- Virtual environment is created the first time you install an external pacakge\
+- Virtual environment is created the first time you install an external pacakge
     `poetry add flake8`\
     `poetry add matplotlib`\
     `poetry add scikit-learn`
 
-
-## Virtual Environment
+### Virtual Environment
 - Poetry will create its own virtual environment in ~\Library/Caches/pypoetry/virtualenvs/<nameoffolder>...
 - Its created after first external package has been added
-
-**Look up virtual environment**\
+- **Look up virtual environment**\
     `poetry env info`\
-    `poetry env info --path`
+    `poetry env info --path`\
+- **Selecting virtual Environment in VS-Code**
 
 
 ### Pytest
-    - Create a separate tests folder to keep all tests\
+- Create a separate tests folder to keep all tests\
     `poetry add pytest`
 
 
@@ -37,19 +38,20 @@
     `poetry add pre-commit` \
     `pre-commit install`
 
-**Hooks run everytime we commit**\
+- **Hooks run everytime we commit**\
     `git add .` \
     `git commit -m "Basic Steps"`
 
 ### Great Expectations
-`poetry add great_expectations`
+- Test for data quality\
+    `poetry add great_expectations`
 
-**Running great-expectations test suite (with dataset location given from command line)**\
+- **Running great-expectations test suite (with dataset location given from command line)**\
 `export DATASET_LOC="/Users/parulpandey/Documents/MLOps/datasets/dataset.csv"`\
 `pytest --dataset-loc=$DATASET_LOC tests/data --verbose --disable-warnings`
 
 ### Pytest
-`poetry add pytest`\
+`poetry add pytest`
 
 **Different ways of Running tests**\
 `python3 -m pytest                                          # all tests` \
@@ -61,7 +63,3 @@
 `coverage run -m pytest   #generic coverage`      \
 `coverage run -m pytest --dataset-loc=$DATASET_LOC tests/data`\
 `coverage report -m`
-
-
-
-### Selecting virtual Environment in VS-Code
