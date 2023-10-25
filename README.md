@@ -3,7 +3,7 @@
 ## References
 [1] https://madewithml.com/ \
 [2] https://realpython.com/dependency-management-python-poetry/ \
-[3] https://pre-commit.com\
+[3] https://pre-commit.com
 
 ## Dependency Management With Python Poetry
 - Assuming a remote/local repo already exists and poetry has been installed system-wide
