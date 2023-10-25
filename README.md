@@ -1,9 +1,9 @@
 # Basic MLOps Setup
 
 ## References
-[1] https://madewithml.com/
-[2] https://realpython.com/dependency-management-python-poetry/
-[3] https://pre-commit.com/
+[1] https://madewithml.com/\
+[2] https://realpython.com/dependency-management-python-poetry/\
+[3] https://pre-commit.com/\
 
 
 ## Dependency Management With Python Poetry
@@ -23,7 +23,7 @@
 
 
 ### Pytest
-- Create a separate tests folder to keep all tests
+- Create a separate tests folder to keep all tests\
 `poetry add pytest`
 
 ### Pre-commit Hooks
