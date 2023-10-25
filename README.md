@@ -3,30 +3,33 @@
 ## References
 [1] https://madewithml.com/
 [2] https://realpython.com/dependency-management-python-poetry/
-
-### Dependency Management With Python Poetry
-    - Assuming a remote/local repo already exists and poetry has been installed system-wide
+[3] https://pre-commit.com/
 
 
-`poetry init`
-    - poetry.lock and pyproject.toml created
+## Dependency Management With Python Poetry
+- Assuming a remote/local repo already exists and poetry has been installed system-wide
+- poetry.lock and pyproject.toml will be created
+    `poetry init`
 
-- Add all libraries to your project
-`poetry add flake8`
-    - Virtual environment is created the first time you install an external pacakge
-    - flake added
+
+### Add all libraries to your project
+- Virtual environment is created the first time you install an external pacakge
+    `poetry add flake8`
+
 
 - Look up virtual environment
 `poetry env info`
 `poetry env info --path`
 
 
-`poetry add pytest`
+### Pytest
 - Create a separate tests folder to keep all tests
+`poetry add pytest`
 
-`poetry add pre-commit`
+### Pre-commit Hooks
 - add a .pre-commit-config.yaml file with basic hooks
-- https://pre-commit.com/
+`poetry add pre-commit`
+
 
 `pre-commit install`
 
