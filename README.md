@@ -1,18 +1,28 @@
-# MLOps
+# Basic MLOps Setup
 
-## Steps I followed to set up basic MLOps functionalities to any data science project
+## References
+[1] https://madewithml.com/
+[2] https://realpython.com/dependency-management-python-poetry/
 
-- Assuming a repo already exists and petry has been installed system-wide
+### Dependency Management With Python Poetry
+    - Assuming a remote/local repo already exists and poetry has been installed system-wide
+
 
 `poetry init`
-- poetry.lock and pyproject.toml created
+    - poetry.lock and pyproject.toml created
 
+- Add all libraries to your project
 `poetry add flake8`
-- Virtual environ are created the first time you install an external pacakge
-- flake added
+    - Virtual environment is created the first time you install an external pacakge
+    - flake added
+
+- Look up virtual environment
+`poetry env info`
+`poetry env info --path`
+
 
 `poetry add pytest`
-- create a separte tests folder
+- Create a separate tests folder to keep all tests
 
 `poetry add pre-commit`
 - add a .pre-commit-config.yaml file with basic hooks
