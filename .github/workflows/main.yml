@@ -1,0 +1,19 @@
+name: CI
+
+on:
+  push:
+    branches:
+    - main
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Install poetry
+        run: |
+          curl -sSL https://install.python-poetry.org | python3 -
+          poetry config virtualenvs.create false
+          poetry install -v
+
+      - name: Run tests
+        run: poetry run pytest
