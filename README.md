@@ -15,6 +15,7 @@
 
 ### Add all libraries to your project
 - Virtual environment is created the first time you install an external pacakge
+- flake8  is a code linter with stylistic conventions that adhere to PEP8
     `poetry add flake8`\
     `poetry add matplotlib`\
     `poetry add scikit-learn`
@@ -63,3 +64,11 @@
 `coverage run -m pytest   #generic coverage`      \
 `coverage run -m pytest --dataset-loc=$DATASET_LOC tests/data`\
 `coverage report -m`
+
+
+### ML FLow setup [TODO]
+
+
+### Logging
+
+### Documentation
