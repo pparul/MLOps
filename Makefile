@@ -1,3 +1,13 @@
+.PHONY: format-black
+format-black: ## black (code formatter)
+	@black .
+
+.PHONY: format
+format: format-black format-isort ## run all formatters
+
+##@ Linting
+
+
 ##@ Linting
 
 .PHONY: lint-black
