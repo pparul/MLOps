@@ -31,4 +31,6 @@ jobs:
         run: poetry install --only lint
       # run linters
       - name: Run linters
-        run: poetry run make lint
+        run: |
+          set -o pipefail
+          poetry run make lint
