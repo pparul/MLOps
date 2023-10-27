@@ -35,5 +35,5 @@ jobs:
           set -o pipefail
           poetry run make lint-flake8
       # run tests
-      - name: Run linters
+      - name: Run tests
         run: poetry run pytest
