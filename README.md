@@ -1,3 +1,5 @@
+[![Linting](https://github.com/pparul/MLOps/actions/workflows/workloads.yaml/badge.svg)](https://github.com/pparul/MLOps/actions/workflows/workloads.yaml)
+
 # Basic MLOps Setup
 
 ## References
