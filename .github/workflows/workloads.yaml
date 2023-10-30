@@ -33,4 +33,5 @@ jobs:
       - name: Run linters
         run: |
           set -o pipefail
-          poetry run make lint-flake8
+          poetry run make style
+      #lint-flake8
