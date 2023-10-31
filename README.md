@@ -6,6 +6,7 @@
 [1] https://madewithml.com/ \
 [2] https://realpython.com/dependency-management-python-poetry/ \
 [3] https://pre-commit.com
+[4] https://towardsdatascience.com/setting-up-python-projects-part-ii-c4bd84b709d1
 
 
 ## Step by Step Guide
@@ -67,10 +68,13 @@
 `coverage run -m pytest --dataset-loc=$DATASET_LOC tests/data`\
 `coverage report -m`
 
+### Makefiles
+`find . | grep -E ".ipynb_checkpoints" | xargs rm -rf` \
+`rm -rf .coverage*`
 
 ### ML FLow setup [TODO]
 
 
-### Logging
+### Logging [TODO]
 
-### Documentation
+### Documentation [TODO]
