@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/461967510655362903/c7d7560e6cd24081a61ff3a8a5b8f6c7/artifacts
+end_time: 1701209541837
+entry_point_name: ''
+experiment_id: '461967510655362903'
+lifecycle_stage: active
+run_id: c7d7560e6cd24081a61ff3a8a5b8f6c7
+run_name: thundering-bass-14
+run_uuid: c7d7560e6cd24081a61ff3a8a5b8f6c7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1701209541807
+status: 3
+tags: []
+user_id: parulpandey
