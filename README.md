@@ -85,4 +85,5 @@ Run MLFlow: mlflow ui --host 0.0.0.0 --port 1234
 mlflow.set_tracking_uri('http://0.0.0.0:1235')
 1235 is port #
 
+mlruns and mlartifacts are created in the root directory
 ui uses data in mlruns folder f or parameter  and mlartifacts for artifacts data
