@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/461967510655362903/c80e6f64c6ac401790796a1cbace6ebb/artifacts
+end_time: 1701211244857
+entry_point_name: ''
+experiment_id: '461967510655362903'
+lifecycle_stage: active
+run_id: c80e6f64c6ac401790796a1cbace6ebb
+run_name: amazing-cod-811
+run_uuid: c80e6f64c6ac401790796a1cbace6ebb
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1701211244832
+status: 3
+tags: []
+user_id: parulpandey

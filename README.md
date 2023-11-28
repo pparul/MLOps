@@ -74,11 +74,6 @@
 
 ### ML FLow setup [TODO]
 
-
-### Logging [TODO]
-
-### Documentation [TODO]
-
 go inside project folder
 run: poetry shell
 Run MLFlow: mlflow ui --host 0.0.0.0 --port 1234
@@ -87,3 +82,16 @@ mlflow.set_tracking_uri('http://0.0.0.0:1235')
 
 mlruns and mlartifacts are created in the root directory
 ui uses data in mlruns folder f or parameter  and mlartifacts for artifacts data
+- #mlflow server stop: not used it yet
+- dont delete local ml runs folder vecause thats what the remote host uses
+
+stop a server:
+- On MAC: Ctrl (^)  + C
+- Every server instance: pkill -f gunicorn
+- ps -A | grep gunicorn to first find the process and kill [PID] manually. (https://stackoverflow.com/questions/60531166/how-to-safely-shutdown-mlflow-ui)
+- Restart using: mlflow ui --host 0.0.0.0 --port 1234 and all old data + anything new you run should be there
+
+
+### Logging [TODO]
+
+### Documentation [TODO]

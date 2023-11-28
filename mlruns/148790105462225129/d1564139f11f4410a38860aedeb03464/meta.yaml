@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/148790105462225129/d1564139f11f4410a38860aedeb03464/artifacts
+end_time: 1701212519682
+entry_point_name: ''
+experiment_id: '148790105462225129'
+lifecycle_stage: active
+run_id: d1564139f11f4410a38860aedeb03464
+run_name: fearless-asp-222
+run_uuid: d1564139f11f4410a38860aedeb03464
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1701212519651
+status: 3
+tags: []
+user_id: parulpandey
